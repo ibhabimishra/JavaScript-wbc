@@ -30,7 +30,7 @@
 // console.log(typeof(arr))
 
 let moon={
-    "name:"moon mishra",
+    "name":"moon mishra",
     "phone no":97645267,
     "address":"bbsr",
     "carrier":"good"
