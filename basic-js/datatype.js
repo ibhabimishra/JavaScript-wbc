@@ -36,3 +36,13 @@ let moon={
     "carrier":"good"
 }
  console.log(moon)
+ console.log(moon["address"])
+ console.log(moon["carrier"])
+ console.log(typeof(moon))
+
+ function my_schedule(){
+    console.log("we wake up at 6 am");
+    console.log("we go for a morning walk");
+    console.log("today is a great day");
+}
+my_schedule()

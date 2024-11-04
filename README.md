@@ -62,7 +62,43 @@ let moon={
     "address":"bbsr",
     "carrier":"good"
 }
-- in the above ex left side element are the keys 
+- in the above ex left side element are the keys and right side element are the values of that key.
+
+3. function :-
+- in function ,we repeatedly do the task in a function.
+- function reduce our codee complexity and time and space complexity.
+- syntax :
+function my_schedule(){
+    console.log("we wake up at 6 am");
+    console.log("we go for a morning walk")
+}
+function calling ->
+
+my_schedule();
+
+Operator in js :-
+- operator are the key features to do some opeats some task.
+ex. A+B
+- in the above example A & B are the operands, "+" is our operator.
+- in javascript,theree are 5 types of operator are there....
+
+1.Arithmetic operator -> (+,-,*,/),%(modulus),**(exponent)
+2.comparision operator -> (==,!==,===)
+3.Assignment operator -> (=,+=,*=,/=,%=,**=)
+4.Logical operator -> (Logical AND)
+5.unary operator -> increament(++),decreament(--)
+
+logical AND (&&)
+ A  B  AND(&&)
+ T  T    T
+ T  F    F
+ F  T    F
+ F  F    F
+
+ Logical OR (||)
+
+ A  B   OR(||)
+ 
 
 
 
@@ -72,6 +108,4 @@ let moon={
 
 
 
-
-2.Reference Datatype
 
