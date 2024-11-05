@@ -34,28 +34,31 @@
 
 //comparision operator
 
-console.log(2==2)//true
-console.log(3!=3)//false
-console.log(2===2)//false
-console.log(2!==2)//true
-console.log(2>2)//false
-console.log(3>=3)//true
-console.log(2<=2)//true
+// console.log(2==2)//true
+// console.log(3!=3)//false
+// console.log(2===2)//false
+// console.log(2!==2)//true
+// console.log(2>2)//false
+// console.log(3>=3)//true
+// console.log(2<=2)//true
 
-//logical operator
+// //logical operator
 
-let x=3;
-//logical AND (&&)
+// let x=3;
+// //logical AND (&&)
 
-console.log((x<5) && (x>0))//false
-console.log((x<5) && (x>6))//false
+// console.log((x<5) && (x>0))//false
+// console.log((x<5) && (x>6))//false
 
-//logical OR (||)
+// //logical OR (||)
 
-console.log((x>2) || (x>5)) //true
-console.log(x>3)||(x<0)//false
+// console.log((x>2) || (x>5)) //true
+// console.log(x>3)||(x<0)//false
 
-//logical NOT
+// //logical NOT
+
+// console.log(!(x==2))//true
+// console.log(!(x<2))//true
 
 
 
