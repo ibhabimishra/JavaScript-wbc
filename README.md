@@ -147,7 +147,54 @@ logical AND (&&)
  4.50-59(D)
  5.0-49(fail-go for aganwadi)
 
- switch
+ Loops in javascript:-
+ - loop are used to execute a piece of code again & again.
+ - there are 5 types of loop are there..
+ 1. For loop :-
+ - syntax :
+ for(initialization; condition; updation){
+   statement
+ }
+ ex. we want to print "web Bocket" 5 times,
+ for(let i=1;i<=5;i++){
+   console.log("web Bocket")
+ }
+ working:-
+ i=1 ->web bocket
+ i=2 ->web bocket
+ i=3 ->web bocket
+ i=4 ->web bocket
+ i=5 ->web bocket
+
+ 2. while loop:-
+ - syntax:
+ while(condition){
+   statement;
+   update;
+ }
+ ex- print "Gift" 5 times...in while loop
+
+ let i=1
+ while(i<=5){
+   console.log("Gift");
+   i++;
+ }
+ 3. Do-while loop:-
+ - syntax :
+ initialize;
+ do {
+   statement;
+   updation;
+ } while(condition)
+
+ 4. For-of loop:- it iterates on string & Array
+
+
+ 5. For-In loop:- it iterate on objects
+ ex. 
+ leti=moon
+ 
+
 
 
  
