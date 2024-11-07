@@ -192,7 +192,53 @@ logical AND (&&)
 
  5. For-In loop:- it iterate on objects
  ex. 
- leti=moon
+ let i=moon
+
+
+ String in javascript:-
+
+ - basically String is a sequence of character used to represent text.
+ - create a string ->let str="web bocket".
+ - we calculate the string length->str.length property.
+ - we calculate the string index->str[0],str[1].....etc
+
+ String Literals:-
+ - its a way to have embeded expression in string.
+ - its denoted bt symbol ``.
+
+ String Interpolation:-
+ - to create string by doing substitution of placeholder.
+ - ex. string text${expression}string text.
+
+ Escape symbol in string:-
+ 1. \n- new line
+ 2. \t- new tab
+
+ String method in javascript:-
+ 1. str.toUpperCase()
+ 2. str.toLowerCase()
+ 3. str.trim()
+ 4. str.slice(start,end)
+ 5. str.concat(str2)
+ 6. str.replace(oldVal,newVal)
+ 7. str.replaceAll(oldVal,newVal)
+ 7. str.charAt(idx)
+
+ Array in js:-
+ - Array is collection of items.
+ - ex. let heroes=["iron man","batman","spider man"]
+ - array index starts from "0".
+ - arr[0],arr[1]....etc
+
+ looping over an array:-
+ syntax->
+ for(let i=0;i< arr.length;i++){
+   statement
+ }
+ 
+pratice question:
+1. for a given array with marks of students -> [89,76,45,90,38,93].find the average marks of the entire class.
+2. for a given array with price of 5 items.change the array to store final price after applying offer
  
 
 
