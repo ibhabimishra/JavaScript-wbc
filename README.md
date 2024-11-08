@@ -238,8 +238,59 @@ logical AND (&&)
  
 pratice question:
 1. for a given array with marks of students -> [89,76,45,90,38,93].find the average marks of the entire class.
-2. for a given array with price of 5 items.change the array to store final price after applying offer
+2. for a given array with price of 5 items[768,].change the array to store final price after applying offer 
  
+
+Array methods on js-:
+
+1. push- add an element to the end
+2. pop- remove from the end
+3. toString- convert array to string
+4. concat- join multiple array and get one result
+5. unshift- add an element to the start
+6. shift- remove an element to the first
+7. slice()- return a piece of the array 
+8. splice()- change original array (add,remove,replace)
+
+Function in js:-
+- it is a block of code that performs a specific task,can be invoked
+
+
+
+
+
+
+
+
+
+
+
+
+//function calling
+functionName(arguments)
+
+2. Arrow Function:-
+- its a compact way of writing a function.
+
+//function creation
+const functionName=(parameter..)->{
+   //do some task
+}
+//function calling
+functionName()
+
+Normal function->
+function sum(a,b){
+   return a+b;
+}
+sum(2,3)
+
+
+pratice task:-
+
+
+
+
 
 
 
