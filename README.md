@@ -253,40 +253,59 @@ Array methods on js-:
 8. splice()- change original array (add,remove,replace)
 
 Function in js:-
-- it is a block of code that performs a specific task,can be invoked
+- it is a block of code that performs a specific task,can be invoked(called) whenever we need.
+ex. (in-build function)
+1. console.log("hello world)->in that code log() is a function
+2. "abc".toUpperCase()->in this code toUpperCase() is a function
+3. [1,2,3].push(4)->in this code push()is a function
 
+there are 2 types of function in js.
+1. Normal function
+2. Arrow function
 
+//type A function
+//function creation
+function functionname(){
+   //do some task
+}
 
+//function calling
+functionName()
 
-
-
-
-
-
-
-
-
+//type B function
+//function creation
+function functionname(parameter){
+   //do some work
+}
 //function calling
 functionName(arguments)
 
 2. Arrow Function:-
 - its a compact way of writing a function.
+- it uses map function to retrive the backend data,filter function for filterise our data.....
 
-//function creation
+
 const functionName=(parameter..)->{
    //do some task
 }
 //function calling
 functionName()
 
-Normal function->
+ex. Normal function->
 function sum(a,b){
    return a+b;
 }
 sum(2,3)
 
+ex. (Arrow function)
+const sum=(a,b)->{
+   return a+b;
+}
+sum(2,3);
+
 
 pratice task:-
+create a function using "function" keywords that takes a string as an argument & returns the no of vowels in that string (TCS string question).
 
 
 
