@@ -305,11 +305,24 @@ sum(2,3);
 
 
 pratice task:-
-create a function using "function" keywords that takes a string as an argument & returns the no of vowels in that string (TCS string question).
+create a function using "function" keywords that takes a string as an argument & returns the no of vowels in that string (TCS Interview question).
 
 
+for each loop in array:-
+- arr.forEach(callBackFunction)
+- callBackFunction:-it is a function to execute for each element in the array.
+- a callback is a function passed as an argument to another function.
 
+ex.
+arr.forEach((val)=>{
+   console.log(val)
+}
+)
 
+pratice task
+1. create a function that reverse an array.
+2. create a function that filter out negative numbers.
+3. check if a string is a palindrome or not.
 
 
 
